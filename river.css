@@ -1,0 +1,91 @@
+ .part1{
+    top: 0;
+    position: relative;
+    background: url(https://www.rideriver.com/images/product/mainbanner.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center bottom;
+
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+}
+button{
+    background-color: #d3c90a;
+    color: #9b0808;
+    border-radius: 30px;
+    margin-right: 50px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #9b0808;
+    color: #d3c90a ;
+}
+/* .row img{
+    height: 600px;
+    width: 360px;
+} */
+video{
+    height: 100vh;
+    width: 100%;
+}
+/* .people{
+    width: 100%;
+    height: 130vh;
+} */
+.app{
+    /* width: 75px;
+    height: 75px;
+    background-color: green; */
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+
+
+}
+#para{
+    background-color: bisque;
+
+
+}
+h3{font-size:60px;}
+@media(max-width:992px){
+    #para{
+        background-color: #ffffff;
+    
+    }
+    h3{font-size: 30px;}
+}
+#para1{
+    background-color: bisque;
+
+}
+h3{font-size:60px;}
+@media(max-width:992px){
+    #para1{
+        background-color:antiquewhite ;
+    }
+    h3{font-size: 30px;}
+}
+#para2{
+    background-color: bisque;
+
+}
+h3{font-size:60px;}
+@media(max-width:992px){
+    #para2{
+        background-color:cornsilk;
+    }
+    h3{font-size: 30px;}
+}
+
+
+
